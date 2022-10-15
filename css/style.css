@@ -1,0 +1,76 @@
+html {
+    background: url("../assets/background.jpg");
+    background-size: 1586px 716px;
+    background-repeat: no-repeat;
+}
+
+body {
+    position: absolute;
+    padding: 5px 0;
+    left: 17%;
+    width: 50%;
+}
+
+.whole {
+    position: absolute;
+    left: 40%;
+    background-color: purple;
+    border-radius: 50px;
+    border: 5px solid rgba(223, 11, 11, 0.855);
+}
+
+.heading {
+    margin-top: -32px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma,  Verdana, sans-serif;
+    text-align: center;
+    font-size: 32px;
+    color: yellow;
+}
+
+.msg {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    margin-top: -17px;
+    font-size: 25px;
+    color: rgb(12, 241, 31);
+}
+
+.btn {
+    margin: 0;
+    position: relative;
+    top: 100%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+button {
+    border-radius: 50px;
+    padding: 8px;
+    color: rgb(238, 81, 14);
+    font-size: larger;
+    font-weight: 700;
+    background-color: rgb(242, 255, 0);
+    padding: 14px 25px;
+    border: 3.2px solid rgb(0, 12, 235);
+}
+
+button:hover {
+    background-color: pink;
+    cursor: pointer;
+    transition: 0.32s ease;
+}
+
+.btn p {
+    font-size: 21px;
+    color: yellow;
+}
+
+.email {
+    font-size: 17px;
+    color: greenyellow;
+}
+
+span {
+    font-weight: 600;
+}

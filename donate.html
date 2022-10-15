@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Personal Details</title>
+    <link rel="stylesheet" href="css/donate.css">
+    <link rel="icon" type="image/x-icon" href="assets/favicon.png">
+</head>
+<body>
+  
+    <div class="heading">
+      <h2>Please fill the details below</h2>
+    </div>
+
+    <div id="smart-button-container">
+      <div style="text-align: center; font-size: 21px; font-weight: 600; color: rgb(10, 130, 22);"><label for="description">Donation Subject &nbsp;</label><input type="text" name="descriptionInput" id="description" maxlength="127" value=""></div>
+      
+      <p id="descriptionError">Please enter the subject</p>
+      
+      <div style="text-align: center; font-size: 21px; font-weight: 600; color: rgb(10, 130, 22);"><label for="amount">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Amount &nbsp;</label><input name="amountInput" type="number" id="amount" value="" ><span> USD</span></div>
+      
+      <p id="priceLabelError">Please enter the amount</p>
+      
+      <div id="invoiceidDiv" style="text-align: center; display: none;"><label for="invoiceid"> </label><input name="invoiceid" maxlength="127" type="text" id="invoiceid" value="" ></div>
+      
+      <p id="invoiceidError">Please enter an Invoice ID</p>
+      
+      <div style="text-align: center; margin-top: 0.625rem;" id="paypal-button-container"></div>
+    </div>
+  
+  <script src="https://www.paypal.com/sdk/js?client-id=AVCsGN2iL0JJFuo1Vu5TNVMJPCbCRQG1iIjVxvuvNFmRJnxyKg9xpVsx_ZcUrdZU-fDy28LJD1GSlS5v&currency=USD" data-sdk-integration-source="button-factory"></script>
+  <script src="script.js"></script>
+  
+</body>
+</html>
